@@ -7,7 +7,7 @@ ID : COD4490
 
 1. **Introduction to To-Do List Web Application** :
  
-This web application is built using HTML, Tailwind CSS, ReactJS, and Vite, providing a modern and efficient platform for managing your tasks and activities.
+This web application is built using HTML, Tailwind CSS, JavaScript , providing a modern and efficient platform for managing your tasks and activities.
 The ToDo List Web Application is a feature-rich task management tool built.It allows users to efficiently organize their tasks, create new ones, mark them as completed, and more.
 The main objective of the ToDo List Web Application is to provide users with a simple yet powerful tool to manage their tasks effectively. It aims to streamline the task management process and improve productivity.
 The ToDo List Web Application is a task management tool designed to help users organize their tasks effectively. This documentation provides a step-by-step guide for installing and using the application using Vite as the build tool.
