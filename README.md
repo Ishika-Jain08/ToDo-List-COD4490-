@@ -1,6 +1,10 @@
-# Todo_List-COD4490-
+# TITLE : Codtech IT Solutions Internship Task -  Todo_List-COD4490-
 
-We are using languages in this project is HTML ,TAILWIND CSS ,REACTSJS.
+**INTERN INFORMATION** :
+Name : Ishika Jain
+ID : COD4490
+
+
 1. **Introduction to To-Do List Web Application** :
  
 This web application is built using HTML, Tailwind CSS, ReactJS, and Vite, providing a modern and efficient platform for managing your tasks and activities.
@@ -29,11 +33,11 @@ The ToDo List Web Application is a task management tool designed to help users o
 
 4:-  Start the Development Server:
    ```
-   npm start
+   npm run dev
    ```
 
 5:-  Access the Application:
-   Open a web browser and navigate to `http://localhost:3000` to access the ToDo List Web Application.
+   Open a web browser and navigate to `http://localhost:5173` to access the ToDo List Web Application.
 
 ---
 
@@ -96,7 +100,7 @@ With its intuitive interface and seamless integration of HTML, Tailwind CSS, Rea
 
 Overall, the ToDo List Web Application empowers users to stay organized and focused, making it an essential tool for individuals and teams alike in effectively managing their tasks and achieving their goals.
 
-1. Setting Up a Node.js Project:
+1. **Setting Up a Node.js Project**:
 
 Before diving into the details, make sure you have Node.js installed on your system. Follow these steps to set up a new Node.js project:
 
@@ -110,21 +114,58 @@ This will create a package.json file that holds project metadata and dependencie
 
 ---
 
-2. Setting Up a React Project:
+2. **Setting Up a React+Vite Project**:
 
-Before diving into the details, make sure you have Node.js installed on your system. Follow these steps to set up a new React project:
+1:- Install Node.js and npm:  If you haven't already, download and install Node.js from the official website: [Node.js Downloads](https://nodejs.org/en/download/). This will also install npm, which is needed to manage packages for your project.
 
-Open your terminal or command prompt.
-Run the following commands:
-. Create a new React project
-npx create-react-app Todo_List
+2:- Create a new directory for your project:  Open a terminal or command prompt, navigate to the directory where you want to create your project, and create a new folder for your React + Vite app.
 
-. Navigate to the project directory
-cd Todo_List
+    ```bash
+    mkdir todo-list
+    ```
 
-. Start the development server
-npm start
-Your React app will be available at http://localhost:3000.
+3:- Navigate into your project directory:  Use the `cd` command to change into your newly created project directory.
+
+    ```bash
+    cd todo-list
+    ```
+
+4:- Initialize a new npm project:  Run the following command to initialize a new npm project. This will create a `package.json` file which will contain metadata about your project and its dependencies.
+
+    ```bash
+    npm init -y
+    ```
+
+5:-  Install Vite and React: Install Vite and React as dependencies for your project.
+
+    ```bash
+    npm install --save-dev vite
+    npm install react react-dom
+    ```
+
+6:- Create a Vite project: Use Vite's create command to scaffold a new React project.
+
+    ```bash
+    npx create-vite@latest react-vite-project --template react
+    ```
+
+    Replace `react-vite-project` with your desired project name.
+
+7:- Navigate into your project directory:  Use the `cd` command to change into your project directory.
+
+    ```bash
+    cd react-vite-project
+    ```
+
+8:- Start the development server:  Run the following command to start the Vite development server.
+
+    ```bash
+    npm run dev
+    ```
+
+    This command will start the development server and open your default web browser to display your React app. You can now begin developing your React + Vite app!
+
+That's it! You've successfully set up a React project with Vite. You can now start building your React components and writing your application logic using the modern tooling provided by Vite.
 
 ---
 Feel free to customize this documentation according to your project's specific requirements. For any inquiries or support, please contact [ishikajian@gmail.com].
